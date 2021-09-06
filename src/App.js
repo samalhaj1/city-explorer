@@ -44,7 +44,7 @@ export class App extends Component {
     
     <Form.Text className="text-muted">. please inter the desiered City name</Form.Text>
   </Form.Group>
-  {/* <Button variant="primary" type="submit"> .*/}
+  {/* <Button variant="primary" type="submit"> */}
   <Button variant="secondary" type="submit" value="Explorer!">
     Search
   </Button>
