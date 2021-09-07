@@ -1,3 +1,13 @@
+# city-explorer
+
+**Author**: sam alhaj
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+## Overview
+when a user enters a city name  a few details wabout the selected city will be displayed
+
+## Getting Started
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Architecture
+Javascript
+
+## Change Log
+project deploy
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
+## Credit and Collaborations
+Bayan Qutshan
+
+
+**Time Estimates**
+
+For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Name of feature: display map
+
+Estimate of time needed to complete:  5HR
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete:3Hr
+
+
