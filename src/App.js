@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
+import Card from 'react-bootstrap/Card'
 
 
 export class App extends Component {
@@ -51,14 +52,18 @@ export class App extends Component {
 </Form>
 
 
-<div>
-          <h2>Location Info</h2>
-          <p>{this.state.locationData.display_name}</p>
-          <p>lat: {this.state.locationData.lat}</p>
-          <p>lon: {this.state.locationData.lon}</p>
+   <div>
+     <h2>Location Info</h2>
+     <p>{this.state.locationData.display_name}</p>
+     <p>lat: {this.state.locationData.lat}</p>
+     <p>lon: {this.state.locationData.lon}</p>
+     <img src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATION_IQ_KEY}&center=${this.state.locationData.lat},${this.state.locationData.lon}&zoom=15&size=600x600`} alt=""/>
+   </div>
+
+
         </div>
 
-            </div>
+
         )
 
     }
